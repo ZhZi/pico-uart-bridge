@@ -14,8 +14,8 @@
 
 #define DESC_STR_MAX 20
 
-#define USBD_VID 0x2E8A /* Raspberry Pi */
-#define USBD_PID 0x000A /* Raspberry Pi Pico SDK CDC */
+#define USBD_VID 0x0CA3
+#define USBD_PID 0x0012
 
 #define USBD_DESC_LEN (TUD_CONFIG_DESC_LEN + TUD_CDC_DESC_LEN * CFG_TUD_CDC)
 #define USBD_MAX_POWER_MA 500
