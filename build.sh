@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_DIR="$(dirname ${BASH_SOURCE[0]})"
-BUILD_BOARD=${PICO_BOARD:-"pico"}
+BUILD_BOARD=${PICO_BOARD:-"pico_w"}
 BUILD_DIR=$BASE_DIR/build/$BUILD_BOARD
 PICO_SDK_DIR=$BASE_DIR/pico-sdk
 
