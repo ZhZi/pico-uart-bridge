@@ -16,6 +16,8 @@ jobs:
             name: Raspberry Pi Pico
           - board: pico2
             name: Raspberry Pi Pico 2
+          - board: pico_w
+            name: Raspberry Pi Pico W
     steps:
       - name: 'Check out code'
         uses: actions/checkout@v4
